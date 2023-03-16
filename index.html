@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- first create the navbar and the box -->
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div id="containerImg">
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1622182438074-b163bdf8f16c" alt="Image 1" />
+          <div class="image-text">Image caption goes here</div>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1574556462575-eb106a5865a0" alt="Image 2" />
+          <div class="image-text">Image caption goes here</div>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1536663815808-535e2280d2c2" alt="Image 3" />
+          <div class="image-text">Image caption goes here</div>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1568402102990-bc541580b59f" alt="Image 4" />
+          <div class="image-text">Image caption goes here</div>
+        </div>
+      </div> 
+      <section >
+        <section>
+          <h2>About Me</h2>
+          <p>Hi, my name is Matias and I'm 31 years old. I live in Berlin and I love Reactjs.</p>
+          <div id="containerAbout">
+            <div>
+              <h3>Education</h3>
+              <p>WebDeveloper at Ironhack</p>
+            </div>
+            <div>
+              <h3>Work Experience</h3>
+              <p> Teacher Assitant at Ironhack</p>
+            </div>
+          </div>
+          </ul>
+        </section>
+      </section>
+      <form>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+          <button type="submit">Send</button>
+        </div>
+      </form>      
+    </main>
+    <footer>
+      <div class="footer-info">
+        <p>© 2023 My Portfolio. All rights reserved.</p>
+      </div>
+      <div class="social-links">
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
